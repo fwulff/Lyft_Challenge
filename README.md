@@ -3,16 +3,16 @@
 
 ## Semantic segmentation of car and road pixel using FCNS
 ​
+![png](./images/14.png)
+![png](./images/18.png)
+![png](./images/31.png)
 
 ## Writeup
 
 In this project, a fully convolutional networks is used to label the pixels of a road and cars in images.
 
-​
-
 ### Dataset
 
-​
 
 * The network was trained on an extended dataset created with the CARLA simulator. The dataset has >5000 images and was contributed by other participants [Link](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/Lyft_Challenge/Training+Data/lyft_training_data.tar.gz)
 
@@ -24,7 +24,7 @@ In this project, a fully convolutional networks is used to label the pixels of a
 
 * The hood is removed from the car class pixelwise (not cropped) using images from the ground truth, where no car was present and subtracting the _car_ class
 
-​
+
 
 ### FCN Network
 
